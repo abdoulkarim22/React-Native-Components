@@ -4,11 +4,12 @@ import Container from './components/Container';
 import Texte from './components/Texte';
 import ImageComponens from './components/ImageComponens';
 import Input from './components/Input';
+import ScrollContainer from './components/ScrollContainer';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Input/>
+      <ScrollContainer/>
     </View>
   );
 }
