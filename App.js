@@ -5,11 +5,14 @@ import Texte from './components/Texte';
 import ImageComponens from './components/ImageComponens';
 import Input from './components/Input';
 import ScrollContainer from './components/ScrollContainer';
+import StyleComponant from './components/StyleComponant';
+import UserInterface from './components/UserInterface';
+import Touchableopacity from './components/Touchableopacity';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ScrollContainer/>
+      <Touchableopacity/>
     </View>
   );
 }
